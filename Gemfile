@@ -61,3 +61,6 @@ gem 'bson_ext'
 
 # react gem
 gem "react-rails"
+
+# haml views
+gem 'haml-rails'
