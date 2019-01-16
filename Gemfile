@@ -58,3 +58,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # db service
 gem 'mongoid', '~> 7.0', '>= 7.0.2'
 gem 'bson_ext'
+
+# react gem
+gem "react-rails"
