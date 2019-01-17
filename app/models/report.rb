@@ -7,4 +7,5 @@ class Report
   belongs_to :category
   embeds_many :related_reports
   has_and_belongs_to_many :tags
+  accepts_nested_attributes_for :category, :related_reports, :related_reports
 end
