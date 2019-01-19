@@ -64,3 +64,6 @@ gem "react-rails"
 
 # haml views
 gem 'haml-rails'
+
+# bootstrap
+gem 'bootstrap-sass'
