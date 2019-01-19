@@ -73,3 +73,6 @@ gem 'simple_form'
 
 # for attachment
 gem "mongoid-paperclip"
+
+# editor
+gem 'ckeditor', '~> 4.3'

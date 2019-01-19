@@ -76,6 +76,9 @@ GEM
     chromedriver-helper (2.1.0)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    ckeditor (4.3.0)
+      orm_adapter (~> 0.5.0)
+      terrapin
     climate_control (0.2.0)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -145,6 +148,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
+    orm_adapter (0.5.0)
     paperclip (6.1.0)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
@@ -260,6 +264,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   chromedriver-helper
+  ckeditor (~> 4.3)
   coffee-rails (~> 4.2)
   haml-rails
   jbuilder (~> 2.5)
