@@ -70,3 +70,6 @@ gem 'bootstrap-sass'
 
 # simple form
 gem 'simple_form'
+
+# for attachment
+gem "mongoid-paperclip"

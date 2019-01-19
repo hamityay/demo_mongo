@@ -6,6 +6,8 @@ class Report
   field :summary, type: String
   belongs_to :category
   embeds_many :related_reports
+  embeds_many :pictures
   has_and_belongs_to_many :tags
-  accepts_nested_attributes_for :category, :related_reports, :related_reports
+  accepts_nested_attributes_for :category, :related_reports, :related_reports, :pictures
+  attr_accepted :pictures_attributes
 end
