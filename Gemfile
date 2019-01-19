@@ -67,3 +67,6 @@ gem 'haml-rails'
 
 # bootstrap
 gem 'bootstrap-sass'
+
+# simple form
+gem 'simple_form'
